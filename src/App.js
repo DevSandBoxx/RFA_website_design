@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container, Row} from 'react-bootstrap';
 import RFANavbar from "./components/RFANavbar";
 // import RFACard from "./components/RFACard";
-import RFAAddWebpage from './components/About/RFANewsletter';
+import RFANewsletter from './components/About/RFANewsletter';
 export default class App extends React.Component{
 
   render() {
@@ -17,7 +17,7 @@ export default class App extends React.Component{
               </header>
           </Container>
         </Row>
-        <RFAAddWebpage/>
+        <RFANewsletter/>
       </Container>
     );
   }

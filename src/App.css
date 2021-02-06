@@ -35,6 +35,18 @@ h2 {
   font-family: "BeVietnam-ExtraBold";
 }
 
+.card {
+  border-radius: 1em !important;
+  border: none !important;
+  transition: 200ms;
+  background-color: #ffcc00;
+  font-family: "Oswald";
+}
+.card:hover{
+  transition: 200ms;
+  background-color: #ffcc00;
+}
+
 .header-blobs{
   background-size: 100% 100%;
   height: 45vw;
