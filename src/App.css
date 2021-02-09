@@ -9,6 +9,10 @@ html, body {
   height: 100%;
 }
 
+.container-vert {
+  background: rgb(196, 239, 210);;
+}
+
 .page-header {
   font-family: "mazzard-h-bold";
   font-size: 5vmax;

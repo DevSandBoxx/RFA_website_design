@@ -68,14 +68,12 @@ Tuesdays/Fridays 6 pm Pacific/9 pm Eastern Time</p>
               <Col md={{ span: 10, offset: 5 }}><Button variant="primary">Enroll in a Course Today!</Button></Col>
             </Row>
           </Container>
-          <Container className = "d-flex align-self-end">
+          <Container className = "container-vert">
             <Row className = "m-4 w-100 justify-content-center">
               <h1 className = "page-header">COURSE OFFERINGS</h1>
               <p className = "page-header-description">We offer basic and advanced computer programming and computer-aided design courses for students in K-8th grade!</p>
               <p className = "page-header-description">View our selection of courses below:</p>
             </Row>
-          </Container>
-          <Container className = "d-flex align-self-end">
             <Row className = "m-4 w-100 justify-content-center">
               <Col>
                 <Card className = "card-modif">
