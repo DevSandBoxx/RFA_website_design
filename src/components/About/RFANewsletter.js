@@ -2,6 +2,7 @@ import React from 'react';
 import {Container, Row, Col} from "react-bootstrap";
 import RFAHeader from '../RFAHeader';
 import RFANewsCard from '../RFANewsCard';
+import RFALongButton from '../RFALongButton';
 import headerBlobYellow from '../../media/HeaderBlobs/HBLightYellow.png'; // add correct image here
 
 export default function RFANewsletter(props){
@@ -40,6 +41,12 @@ export default function RFANewsletter(props){
               </Col>
             ))}
           </Row>
+
+          {/* Read Previous News Button */}
+          <RFALongButton title = {"Read Previous Newsletters"} backgroundColor = {"#ffcc00"} link = "https://www.google.com/"/>
+          <br>
+          </br>
+          
         </Container>
       </div>
     );  

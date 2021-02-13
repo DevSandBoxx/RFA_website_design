@@ -22,16 +22,22 @@ html, body {
   overflow-x: hidden;
 }
 
-h2 {
+/* h2 {
   font-family: 'Oswald';
   font-size: 100px;
-}
-
-/* a:focus{
-  text-decoration: none;
 } */
 
-.BeVietanm-ExtraBold{
+.long-button {
+  border-radius: 1em !important;
+  border: none !important;
+}
+
+.long-button:hover{
+  transition: 200ms;
+  background-color: #ffcc00CA !important;
+}
+
+.BeVietnam-ExtraBold{
   font-family: "BeVietnam-ExtraBold";
 }
 
@@ -42,6 +48,7 @@ h2 {
   background-color: #ffcc00;
   font-family: "Oswald";
 }
+
 .card:hover{
   transition: 200ms;
   background-color: #ffcc00;
