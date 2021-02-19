@@ -35,8 +35,7 @@ export default function RFANewsletter(props){
 
             ].map(newsletter => (
               <Col key = {newsletter.date} md>
-                <RFANewsCard key = {newsletter.pdfLink} title = {newsletter.date} link = {newsletter.pdfLink}
-                  color = {"#ffcc00"} opacity = {"80"}/>
+                <RFANewsCard key = {newsletter.pdfLink} title = {newsletter.date} link = {newsletter.pdfLink}/>
                 <br/>
               </Col>
             ))}

@@ -1,16 +1,16 @@
 import React from 'react';
-import {Card, Button} from "react-bootstrap";
+import {Card, Button, Row, Col, Container} from "react-bootstrap";
 
 export default function RFANewsCard(props){
+
     return (
-        <a className = "card" style = {{textDecoration: "none", color: "black"}} target = "_blank" href = {props.link}>
-            <Card style = {{transition: 200, backgroundColor: (props.color + props.opacity)}}>
-                {/* <Card.Img variant="top" src /> */}
-                <br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                <Card.Body>
-                    <Card.Title className = "text-center">{props.title}</Card.Title>
-                </Card.Body>
-            </Card>
+        <a className = "hyperlink" target = "_blank" href = {props.link}>
+            <Col className = "newsletter-card">
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                <Row className = "justify-content-center">
+                    <h3 className = "mb-4 text-center">{props.title}</h3>
+                </Row>
+            </Col>
         </a>
     );
 }
