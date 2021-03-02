@@ -1,31 +1,31 @@
 import React from "react";
-import "./styles.css";
+
 import {Container, Row, Col, Card, } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import maximillion from "../../media/ClassPhotos/maximillion.png"
-import Isabella from "../../media/ClassPhotos/Isabella.jpg"
-import aarushi from "../../media/ClassPhotos/aarushi.jpg"
-import amari from "../../media/ClassPhotos/amari.jpg"
-import arvind from "../../media/ClassPhotos/arvind.jpg"
-import ben from "../../media/ClassPhotos/ben.jpg"
-import crystal from "../../media/ClassPhotos/crystal.jpg"
-import danielle from "../../media/ClassPhotos/danielle.jpg"
-import dilan from "../../media/ClassPhotos/dilan.png"
-import emma from "../../media/ClassPhotos/emma.jpg"
-import kenneth from "../../media/ClassPhotos/kenneth.jpg"
-import linna from "../../media/ClassPhotos/linna.jpg"
-import pravanvel from "../../media/ClassPhotos/pravanvel.jpg"
-import tong from "../../media/ClassPhotos/tong.jpg"
-import victoria from "../../media/ClassPhotos/victoria.jpg"
-import vinicius from "../../media/ClassPhotos/vinicius.jpg"
-import vivian from "../../media/ClassPhotos/vivian.jpg"
-import william from "../../media/ClassPhotos/william.png"
-import xina from "../../media/ClassPhotos/xina.jpg"
-import garrett from "../../media/ClassPhotos/garrett.jpg"
-export default function App() {
+import maximillion from "../../../media/ClassPhotos/maximillion.png";
+import isabella from "../../../media/ClassPhotos/Isabella.jpg";
+import aarushi from "../../../media/ClassPhotos/aarushi.jpg";
+import amari from "../../../media/ClassPhotos/amari.jpg";
+import arvind from "../../../media/ClassPhotos/arvind.jpg";
+import ben from "../../../media/ClassPhotos/ben.jpg";
+import crystal from "../../../media/ClassPhotos/crystal.jpg";
+import danielle from "../../../media/ClassPhotos/danielle.jpg";
+import dilan from "../../../media/ClassPhotos/dilan.png";
+import emma from "../../../media/ClassPhotos/emma.jpg";
+import kenneth from "../../../media/ClassPhotos/kenneth.jpg";
+import linna from "../../../media/ClassPhotos/linna.jpg";
+import pravanvel from "../../../media/ClassPhotos/pravanvel.jpg";
+import tong from "../../../media/ClassPhotos/tong.jpg";
+import victoria from "../../../media/ClassPhotos/victoria.jpg";
+import vinicius from "../../../media/ClassPhotos/vinicius.jpg";
+import vivian from "../../../media/ClassPhotos/vivian.jpg";
+import william from "../../../media/ClassPhotos/william.png";
+import xina from "../../../media/ClassPhotos/xina.jpg";
+import garrett from "../../../media/ClassPhotos/garrett.jpg";
+export default function MeetTeam(props) {
   return (
+    <div>
     <Row className = "header-blobs">
-      
       <Container className = "d-flex align-self-end">
       <Row className = "m-4 w-100 justify-content-center">
         <h1 className= "page-header">Board Directors</h1>
@@ -312,7 +312,7 @@ export default function App() {
             <Row className = "m-4 w-40 justify-content-center">
               <Col>
                 <Card className = "card-modif">
-                  <Card.Img variant="top" src={Isabella} />
+                  <Card.Img variant="top" src={isabella} />
                 </Card>
               </Col>
               </Row>
@@ -509,6 +509,7 @@ He helped develop the curriculum for Java and Lego Explorers and make revisions 
 
 
     </Row>
+    </div>
 
     
 

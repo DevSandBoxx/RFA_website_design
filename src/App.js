@@ -5,6 +5,7 @@ import {Container, Row} from 'react-bootstrap';
 import RFANavbar from "./components/RFANavbar";
 // import RFACard from "./components/RFACard";
 import RFAAddWebpage from './components/About/RFAAddWebpage';
+import MeetTeam from './components/About/Meet-the-Team/MeetTeam';
 export default class App extends React.Component{
 
   render() {
@@ -13,12 +14,17 @@ export default class App extends React.Component{
         <Row> {/* Structure of webpage will follow grid layout => row, column, container */}
           <Container>
               <header>
-                  <RFANavbar/>
+                 <RFANavbar/>
               </header>
           </Container>
         </Row>
         <RFAAddWebpage/>
+        <MeetTeam/>
       </Container>
+
+
+
+
     );
   }
 }

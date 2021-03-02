@@ -6,7 +6,7 @@ import headerBlobYellow from '../../media/HeaderBlobs/HBLightYellow.png'; // add
 export default function RFAAddWebpage(props){
     return (
       <div>
-        <RFAHeader headerTextColor = {"#ffcc00"} image = {headerBlobYellow} title = {"add title"} description = {"add description"}/>
+        <RFAHeader headerTextColor = {"#ffcc00"} image = {headerBlobYellow} title = {"Get to Know our Team!"} description = {"Get to know the faces behind Robotics for All!"}/>
       </div>
     );
 }
